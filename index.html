@@ -1,0 +1,38 @@
+	<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Springs</title>
+<link rel="stylesheet" href="./includes/style1.css">
+</head>
+<body>
+
+<canvas id="canvas_bg" width="800" height="600"></canvas>
+<canvas id="canvas" width="800" height="600"></canvas>
+
+<div class="wrapperFederkonstante">
+<p class="textFederkonstante">Federkonstante:</p>
+<input type="range" min="1" max="10" value="1" class="slider" id="federkonstante">
+</div>
+
+
+<div class="wrapperMasse">
+<p class="textMasse">Masse:</p>
+<input type="range" min="1" max="10" value="1" class="slider" id="masse">
+</div>
+
+
+<div class="wrapperErdbeschleunigung">
+<p class="textErdbeschleunigung">Erdbeschleunigung:</p>
+<input type="range" min="0" max="100" value="9.81" class="slider" id="erdbeschleunigung">
+</div>
+
+
+
+<script src= "objects/vector2D.js"></script>
+<script src= "objects/forces.js"></script>
+<script src= "objects/ball.js"></script>
+<script src= "federpendel013.js"></script>
+
+</body>
+</html>
